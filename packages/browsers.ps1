@@ -1,10 +1,9 @@
-$packages = @()
+return @(
 
-# BROWSERS
-# ========
-$packages += "GoogleChrome"
-$packages += "Opera"
-$packages += "Firefox"
-$packages += "Safari"
-
-return $packages
+    # BROWSERS
+    # ========
+    "GoogleChrome",
+    "Opera",
+    "Firefox",
+    "Safari"
+)

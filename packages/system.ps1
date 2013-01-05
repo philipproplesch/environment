@@ -1,43 +1,42 @@
-$packages = @()
+return @(
 
-# FILE ARCHIVER
-# =============
-$packages += "7zip"
+    # FILE ARCHIVER
+    # =============
+    "7zip",
 
-# DIAGNOSTICS
-# ===========
-$packages += "sysinternals"
+    # DIAGNOSTICS
+    # ===========
+    "sysinternals",
 
-# SECURITY
-# ========
-#$packages += "MicrosoftSecurityEssentials"
+    # SECURITY
+    # ========
+    #"MicrosoftSecurityEssentials",
 
-# RUNTIMES
-# ========
-$packages += "vcredist2008"
-#$packages += "javaruntime.x64"
+    # RUNTIMES
+    # ========
+    "vcredist2008",
+    #"javaruntime.x64",
 
-# NETWORK
-# =======
-#$packages += "filezilla"
+    # NETWORK
+    # =======
+    #"filezilla",
 
-# CLOUD
-# =====
-$packages += "dropbox"
+    # CLOUD
+    # =====
+    "dropbox",
 
-# MESSENGER
-# =========
-$packages += "skype"
+    # MESSENGER
+    # =========
+    "skype",
 
-# BLOGGING
-# ========
-$packages += "WindowsLiveWriter"
-$packages += "PreCode.WLW"
+    # BLOGGING
+    # ========
+    "WindowsLiveWriter",
+    "PreCode.WLW",
 
-# MULTIMEDIA
-# ==========
-$packages += "vlc"
-$packages += "spotify"
-$packages += "paint.net"
-
-return $packages
+    # MULTIMEDIA
+    # ==========
+    "vlc",
+    "spotify",
+    "paint.net"
+)

@@ -1,47 +1,46 @@
-$packages = @()
+return @(
 
-# EDITORS
-# =======
-$packages += "notepadplusplus"
-#$packages += "sublimetext2"
-#$packages += "vim"
-$packages += "markpad"
+    # EDITORS
+    # =======
+    "notepadplusplus",
+    #"sublimetext2",
+    #"vim",
+    "markpad",
 
-# DECOMPILER
-# ==========
-$packages += "ilspy"
-#$packages += "dotPeek"
+    # DECOMPILER
+    # ==========
+    "ilspy",
+    #"dotPeek",
 
-# TOOLING
-# =======
-#$packages += "resharper"
-#$packages += "smtp4dev"
+    # TOOLING
+    # =======
+    #"resharper",
+    #"smtp4dev",
 
-# (D)VCS
-# ======
-$packages += "git"
-$packages += "githubforwindows"
-#$packages += "TortoiseGit"
-#$packages += "gittfs"
+    # (D)VCS
+    # ======
+    "git",
+    "githubforwindows",
+    #"TortoiseGit",
+    #"gittfs",
 
-$packages += "hg"
-$packages += "tortoisehg"
+    "hg",
+    "tortoisehg",
 
-#$packages += "sliksvn"
-#$packages += "tortoisesvn"
+    #"sliksvn",
+    #"tortoisesvn",
 
-# DATABASE
-# ========
-#$packages += "mongodb"
+    # DATABASE
+    # ========
+    #"mongodb",
 
-# ENVIRONMENTS
-# ============
-$packages += "nodejs"
-#$packages += "ruby"
+    # ENVIRONMENTS
+    # ============
+    "nodejs",
+    #"ruby",
 
-# WEB DEVELOPMENT
-# ===============
-$packages += "fiddler"
-$packages += "webpicommandline"
-
-return $packages
+    # WEB DEVELOPMENT
+    # ===============
+    "fiddler",
+    "webpicommandline"
+)
