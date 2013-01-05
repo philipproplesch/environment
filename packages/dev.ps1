@@ -3,9 +3,9 @@ $packages = @()
 # EDITORS
 # =======
 $packages += "notepadplusplus"
-$packages += "markpad"
 #$packages += "sublimetext2"
 #$packages += "vim"
+$packages += "markpad"
 
 # DECOMPILER
 # ==========
@@ -15,6 +15,7 @@ $packages += "ilspy"
 # TOOLING
 # =======
 #$packages += "resharper"
+#$packages += "smtp4dev"
 
 # (D)VCS
 # ======
@@ -24,7 +25,7 @@ $packages += "githubforwindows"
 #$packages += "gittfs"
 
 $packages += "hg"
-#$packages += "tortoisehg"
+$packages += "tortoisehg"
 
 #$packages += "sliksvn"
 #$packages += "tortoisesvn"
@@ -35,7 +36,7 @@ $packages += "hg"
 
 # ENVIRONMENTS
 # ============
-#$packages += "nodejs"
+$packages += "nodejs"
 #$packages += "ruby"
 
 # WEB DEVELOPMENT

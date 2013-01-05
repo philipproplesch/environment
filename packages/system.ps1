@@ -14,6 +14,7 @@ $packages += "sysinternals"
 
 # RUNTIMES
 # ========
+$packages += "vcredist2008"
 #$packages += "javaruntime.x64"
 
 # NETWORK
