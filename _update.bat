@@ -1,0 +1,1 @@
+powershell .\update-packages.ps1
