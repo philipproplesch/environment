@@ -16,6 +16,7 @@ return @(
     # =======
     #"resharper",
     #"smtp4dev",
+	#"NugetPackageExplorer"
 
     # (D)VCS
     # ======
@@ -33,6 +34,7 @@ return @(
     # DATABASE
     # ========
     #"mongodb",
+	#"MongoVUE",
 
     # ENVIRONMENTS
     # ============
@@ -43,4 +45,10 @@ return @(
     # ===============
     "fiddler",
     "webpicommandline"
+	
+	# NETWORK
+	# =======
+	#"wireshark",
+	#"Wget",
+	#"curl"
 )

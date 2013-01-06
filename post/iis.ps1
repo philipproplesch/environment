@@ -1,4 +1,4 @@
-cwebpi IIS7 # => IIS8 will be installed if possible.
+cwebpi IIS7 # => Regardless of the name IIS8 will be enabled if available.
 cwebpi BasicAuthentication
 cwebpi WindowsAuthentication
 cwebpi AppWarmUp

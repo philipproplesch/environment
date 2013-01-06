@@ -11,3 +11,6 @@ Get-ChildItem -Path (Join-Path "$pwd" "packages") -Filter *.ps1 | ForEach {
 }
 
 Write-Host "Finished!"
+
+# or just
+# Invoke-Expression "chocolatey update all"
