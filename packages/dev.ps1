@@ -36,7 +36,7 @@ return @(
 
     # ENVIRONMENTS
     # ============
-    "nodejs",
+    "nodejs.install",
     #"ruby",
 
     # WEB DEVELOPMENT
