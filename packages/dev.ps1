@@ -14,9 +14,8 @@ return @(
 
     # TOOLING
     # =======
-    #"resharper",
     #"smtp4dev",
-	#"NugetPackageExplorer"
+    #"NugetPackageExplorer"
 
     # (D)VCS
     # ======
@@ -34,7 +33,7 @@ return @(
     # DATABASE
     # ========
     #"mongodb",
-	#"MongoVUE",
+    #"MongoVUE",
 
     # ENVIRONMENTS
     # ============
@@ -45,10 +44,10 @@ return @(
     # ===============
     "fiddler",
     "webpicommandline"
-	
-	# NETWORK
-	# =======
-	#"wireshark",
-	#"Wget",
-	#"curl"
+
+    # NETWORK
+    # =======
+    #"wireshark",
+    #"Wget",
+    #"curl"
 )

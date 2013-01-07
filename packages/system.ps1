@@ -7,7 +7,7 @@ return @(
     # DIAGNOSTICS
     # ===========
     "sysinternals",
-	"windirstat",
+    "windirstat",
 
     # SECURITY
     # ========
@@ -25,8 +25,8 @@ return @(
     # CLOUD
     # =====
     "dropbox",
-	#"SkyDrive",
-	#"googledrive",
+    #"SkyDrive",
+    #"googledrive",
 
     # MESSENGER
     # =========
@@ -40,7 +40,7 @@ return @(
     # MULTIMEDIA
     # ==========
     "vlc",
-	#"foobar2000"
+    #"foobar2000"
     "spotify",
     "paint.net"
 )

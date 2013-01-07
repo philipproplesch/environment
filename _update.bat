@@ -1,1 +1,1 @@
-powershell .\update-packages.ps1
+chocolatey update all
