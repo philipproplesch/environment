@@ -38,9 +38,10 @@ return @(
     "PreCode.WLW",
 
     # MULTIMEDIA
-    # ==========
-    "vlc",
-    #"foobar2000"
+    # ==========    
+    #"foobar2000",
     "spotify",
     "paint.net"
+    #"gimp",
+    "vlc"
 )
