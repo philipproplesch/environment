@@ -1,9 +1,9 @@
 return @(
 
-    # BROWSERS
-    # ========
-    "GoogleChrome",
-    "Opera",
-    "Firefox",
-    "Safari"
+  # BROWSERS
+  # ========
+  "GoogleChrome",
+  "Opera",
+  "Firefox",
+  "Safari"
 )

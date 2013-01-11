@@ -1,47 +1,47 @@
 return @(
 
-    # FILE ARCHIVER
-    # =============
-    "7zip",
+  # FILE ARCHIVER
+  # =============
+  "7zip",
 
-    # DIAGNOSTICS
-    # ===========
-    "sysinternals",
-    "windirstat",
+  # DIAGNOSTICS
+  # ===========
+  "sysinternals",
+  "windirstat",
 
-    # SECURITY
-    # ========
-    #"MicrosoftSecurityEssentials",
+  # SECURITY
+  # ========
+  #"MicrosoftSecurityEssentials",
 
-    # RUNTIMES
-    # ========
-    "vcredist2008",
-    #"javaruntime.x64",
+  # RUNTIMES
+  # ========
+  "vcredist2008",
+  #"javaruntime.x64",
 
-    # NETWORK
-    # =======
-    #"filezilla",
+  # NETWORK
+  # =======
+  #"filezilla",
 
-    # CLOUD
-    # =====
-    "dropbox",
-    #"SkyDrive",
-    #"googledrive",
+  # CLOUD
+  # =====
+  "dropbox",
+  #"SkyDrive",
+  #"googledrive",
 
-    # MESSENGER
-    # =========
-    "skype",
+  # MESSENGER
+  # =========
+  "skype",
 
-    # BLOGGING
-    # ========
-    "WindowsLiveWriter",
-    "PreCode.WLW",
+  # BLOGGING
+  # ========
+  "WindowsLiveWriter",
+  "PreCode.WLW",
 
-    # MULTIMEDIA
-    # ==========    
-    #"foobar2000",
-    "spotify",
-    "paint.net"
-    #"gimp",
-    "vlc"
+  # MULTIMEDIA
+  # ==========    
+  #"foobar2000",
+  "spotify",
+  "paint.net"
+  #"gimp",
+  "vlc"
 )

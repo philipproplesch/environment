@@ -1,53 +1,54 @@
 return @(
 
-    # EDITORS
-    # =======
-    "notepadplusplus",
-    #"sublimetext2",
-    #"vim",
-    "markpad",
+  # EDITORS
+  # =======
+  "notepadplusplus",
+  #"sublimetext2",
+  #"vim",
+  "markpad",
 
-    # DECOMPILER
-    # ==========
-    "ilspy",
-    #"dotPeek",
+  # DECOMPILER
+  # ==========
+  "ilspy",
+  #"dotPeek",
 
-    # TOOLING
-    # =======
-    #"smtp4dev",
-    #"NugetPackageExplorer"
+  # TOOLING
+  # =======
+  #"smtp4dev",
+  #"NugetPackageExplorer"
 
-    # (D)VCS
-    # ======
-    "git",
-    "githubforwindows",
-    #"TortoiseGit",
-    #"gittfs",
+  # (D)VCS
+  # ======
+  "git",
+  "githubforwindows",
+  #"TortoiseGit",
+  #"gittfs",
 
-    "hg",
-    "tortoisehg",
+  "hg",
+  "tortoisehg",
 
-    #"sliksvn",
-    #"tortoisesvn",
+  #"sliksvn",
+  #"tortoisesvn",
 
-    # DATABASE
-    # ========
-    #"mongodb",
-    #"MongoVUE",
+  # DATABASE
+  # ========
+  #"mongodb",
+  #"MongoVUE",
 
-    # ENVIRONMENTS
-    # ============
-    "nodejs.install",
-    #"ruby",
+  # ENVIRONMENTS
+  # ============
+  "nodejs.install",
+  #"ruby",
 
-    # WEB DEVELOPMENT
-    # ===============
-    "fiddler",
-    "webpicommandline"
+  # WEB DEVELOPMENT
+  # ===============
+  "fiddler",
+  "webpicommandline",
+  "Compass",
 
-    # NETWORK
-    # =======
-    #"wireshark",
-    #"Wget",
-    #"curl"
+  # NETWORK
+  # =======
+  #"wireshark",
+  #"Wget",
+  #"curl"
 )
