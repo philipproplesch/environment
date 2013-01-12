@@ -1,0 +1,1 @@
+powershell .\install-vs2012.ps1
