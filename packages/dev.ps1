@@ -5,7 +5,7 @@ return @(
   "notepadplusplus",
   #"sublimetext2",
   #"vim",
-  "markpad",
+  #"markpad",
 
   # DECOMPILER
   # ==========
@@ -19,9 +19,9 @@ return @(
 
   # (D)VCS
   # ======
-  "git",
-  "githubforwindows",
-  #"TortoiseGit",
+  #"git",
+  #"githubforwindows",
+  "TortoiseGit",
   #"gittfs",
 
   "hg",
@@ -35,16 +35,20 @@ return @(
   #"mongodb",
   #"MongoVUE",
 
+  # SDKs
+  # ====
+  "VS2012SDK",
+
   # ENVIRONMENTS
   # ============
   "nodejs.install",
-  #"ruby",
+  "ruby",
 
   # WEB DEVELOPMENT
   # ===============
   "fiddler",
   "webpicommandline",
-  "Compass",
+  "Compass"
 
   # NETWORK
   # =======

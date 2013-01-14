@@ -34,8 +34,8 @@ return @(
 
   # BLOGGING
   # ========
-  "WindowsLiveWriter",
-  "PreCode.WLW",
+  #"WindowsLiveWriter",
+  #"PreCode.WLW",
 
   # MULTIMEDIA
   # ==========    
