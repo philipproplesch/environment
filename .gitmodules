@@ -1,0 +1,6 @@
+[submodule "dotfiles/powershell/posh-git"]
+	path = dotfiles/powershell/posh-git
+	url = https://github.com/dahlbyk/posh-git.git
+[submodule "dotfiles/powershell/posh-hg"]
+	path = dotfiles/powershell/posh-hg
+	url = https://github.com/JeremySkinner/posh-hg.git
