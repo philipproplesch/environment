@@ -1,1 +1,1 @@
-powershell .\install-vs2012.ps1
+powershell .\_scripts\install-vs2012.ps1

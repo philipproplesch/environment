@@ -1,1 +1,1 @@
-powershell .\install-packages.ps1
+powershell .\_scripts\install-packages.ps1

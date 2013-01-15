@@ -1,1 +1,1 @@
-powershell .\after-vs.ps1
+powershell .\_scripts\after-vs.ps1

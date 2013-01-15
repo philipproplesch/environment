@@ -3,7 +3,7 @@
 Invoke-Expression ((New-Object Net.WebClient).DownloadString('http://bit.ly/psChocInstall'))
 
 # Install packages
-Get-ChildItem -Path (Join-Path "$pwd" "packages") -Filter *.ps1 | ForEach {
+Get-ChildItem -Path ([System.IO.Path]::Combine($PWD, "chocolatey", "packages")) -Filter *.ps1 | ForEach {
     $packages = Invoke-Expression $_.FullName     
     foreach ($package in $packages) {
         Invoke-Expression "chocolatey install $package"
@@ -11,6 +11,6 @@ Get-ChildItem -Path (Join-Path "$pwd" "packages") -Filter *.ps1 | ForEach {
 }
 
 # Execute post-installation actions
-Get-ChildItem -Path (Join-Path "$pwd" "post") -Filter *.ps1 | ForEach {
+Get-ChildItem -Path ([System.IO.Path]::Combine($PWD, "chocolatey", "post")) -Filter *.ps1 | ForEach {
     Invoke-Expression $_.FullName
 }
