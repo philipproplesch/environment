@@ -8,7 +8,7 @@ function Get-IsoDrive {
 }
 
 $installer = (Get-ChildItem (Get-IsoDrive) -Filter 'vs_*.exe').FullName
-$script = Join-Path $pwd 'VS2012_AdminDeployment.xml'
+$script = Join-Path $PWD 'VS2012_AdminDeployment.xml'
 
 #Start-Process $installer -ArgumentList "/adminfile $script /quiet /norestart"
 Start-Process $installer -ArgumentList "/adminfile $script /norestart"
