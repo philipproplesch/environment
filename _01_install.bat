@@ -1,1 +1,0 @@
-powershell .\_scripts\install-packages.ps1

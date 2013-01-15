@@ -1,4 +1,6 @@
 [user]
 	name = Philip Proplesch
 	email = philip@proplesch.de
-	
+
+[core]
+	excludesfile = ~/.gitignore

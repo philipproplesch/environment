@@ -1,1 +1,0 @@
-powershell .\_scripts\after-vs.ps1

@@ -1,0 +1,1 @@
+powershell .\post-install.ps1
