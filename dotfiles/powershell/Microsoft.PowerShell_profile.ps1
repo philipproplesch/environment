@@ -1,5 +1,7 @@
 ﻿$dir = [System.IO.Path]::GetDirectoryName($PROFILE)
 
+Push-Location $dir
+
 Get-ChildItem $dir\scripts\*.ps1 | % {
   . $_
 }
@@ -9,5 +11,8 @@ Get-ChildItem $dir\scripts\*.ps1 | % {
 . "$dir\posh-hg\profile.example.ps1"
 
 function prompt {
-  return '> '
+  Write-Host ("$(Get-Location)") -NoNewline
+  return "> "
 }
+
+Pop-Location
