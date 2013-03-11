@@ -6,13 +6,24 @@ Get-ChildItem $dir\scripts\*.ps1 | % {
   . $_
 }
 
-# Load posh-git & posh-hg
-. "$dir\posh-git\profile.example.ps1"
-. "$dir\posh-hg\profile.example.ps1"
+Import-Module "$dir\posh-hg\posh-hg"
+Import-Module "$dir\posh-git\posh-git"
 
 function prompt {
-  Write-Host ("$(Get-Location)") -NoNewline
+  $realLASTEXITCODE = $LASTEXITCODE
+
+  # Reset color, which can be messed up by Enable-GitColors
+  $Host.UI.RawUI.ForegroundColor = $GitPromptSettings.DefaultForegroundColor
+
+  Write-Host($pwd) -nonewline
+  
+  Write-VcsStatus
+  
+  $global:LASTEXITCODE = $realLASTEXITCODE
   return "> "
 }
+
+Enable-GitColors
+Start-SshAgent -Quiet
 
 Pop-Location
