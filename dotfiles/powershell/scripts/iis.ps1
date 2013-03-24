@@ -5,7 +5,7 @@
 
   $root = Join-Path $env:windir "Microsoft.NET"
   
-  foreach($framework in @("Framework", "Framework")) {  
+  foreach($framework in @("Framework", "Framework64")) {  
     
     foreach($version in @("v2.0.50727", "v4.0.30319")) {  
         
