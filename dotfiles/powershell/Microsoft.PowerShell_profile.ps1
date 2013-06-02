@@ -24,6 +24,6 @@ function prompt {
 }
 
 Enable-GitColors
-Start-SshAgent -Quiet
+#Start-SshAgent -Quiet
 
 Pop-Location
