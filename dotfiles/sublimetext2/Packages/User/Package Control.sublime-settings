@@ -1,0 +1,12 @@
+{
+	"installed_packages":
+	[
+		"CoffeeCompile",
+		"CoffeeScript",
+		"Compass",
+		"Package Control",
+		"PowerShell",
+		"Sass",
+		"TidyHTML5"
+	]
+}
