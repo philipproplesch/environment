@@ -1,6 +1,15 @@
 [user]
-	name = Philip Proplesch
-	email = philip@proplesch.de
+  name = Philip Proplesch
+  email = philip@proplesch.de
 
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
+
+[http]
+  sslVerify = false
+  
+[init]
+  #templatedir = ~/.git_template
+
+[alias]
+  history = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
