@@ -1,9 +1,12 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"CoffeeCompile",
 		"CoffeeScript",
 		"Compass",
+		"LiveReload",
+		"Markdown Preview",
 		"Package Control",
 		"PowerShell",
 		"Sass",
