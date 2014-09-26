@@ -11,5 +11,3 @@ $windowSize = $host.UI.RawUI.WindowSize
 $windowSize.Width = 140
 $windowSize.Height = 40
 $host.UI.RawUI.WindowSize = $windowSize
-
-Clear-Host

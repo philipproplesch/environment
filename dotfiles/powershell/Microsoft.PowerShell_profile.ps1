@@ -1,4 +1,4 @@
-﻿$dir = [System.IO.Path]::GetDirectoryName($PROFILE)
+$dir = [System.IO.Path]::GetDirectoryName($PROFILE)
 
 Push-Location $dir
 
@@ -6,7 +6,6 @@ Get-ChildItem $dir\scripts\*.ps1 | % {
   . $_
 }
 
-Import-Module "$dir\posh-hg\posh-hg"
 Import-Module "$dir\posh-git\posh-git"
 
 function prompt {
@@ -20,15 +19,17 @@ function prompt {
   # Reset color, which can be messed up by Enable-GitColors
   $Host.UI.RawUI.ForegroundColor = $GitPromptSettings.DefaultForegroundColor
 
-  Write-Host($pwd) -NoNewline  
+  Write-Host $pwd -NoNewline
   Write-VcsStatus
-  
+
   $global:LASTEXITCODE = $realLASTEXITCODE
-  
-  return "> "   
+
+  return "> "
 }
 
 Enable-GitColors
 #Start-SshAgent -Quiet
+
+Clear-Host
 
 Pop-Location
