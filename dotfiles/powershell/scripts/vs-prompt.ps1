@@ -13,4 +13,3 @@ cmd /c "vcvarsall.bat&set" | foreach {
 }
 
 Pop-Location
-#Write-Host "`nVisual Studio 2013 Command Prompt variables set." -ForegroundColor Yellow

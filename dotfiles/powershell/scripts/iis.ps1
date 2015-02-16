@@ -7,13 +7,17 @@
 
   foreach($framework in @("Framework", "Framework64")) {
 
-    foreach($version in @("v2.0.50727", "v4.0.30319")) {
+    $frameworkPath = Join-Path $root $framework
+    Get-ChildItem $frameworkPath | ForEach-Object {
+      if($_.Name -match "v\d\.") {
+        $versionPath = Join-Path $frameworkPath $_.Name
+        $tempDirectory = Join-Path $versionPath "Temporary ASP.NET Files"
 
-      $path = [System.IO.Path]::Combine($root, $framework, $version, "Temporary ASP.NET Files")
-      if(Test-Path $path) {
-        Remove-Item $path -Recurse -Force
+        if(Test-Path $tempDirectory) {
+          Remove-Item $tempDirectory -Recurse -Force
+        }
       }
-    }
+    }    
   }
 
   #Start IIS

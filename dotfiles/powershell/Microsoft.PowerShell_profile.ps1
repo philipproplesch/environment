@@ -6,9 +6,13 @@ Get-ChildItem $dir\scripts\*.ps1 | % {
   . $_
 }
 
+Get-ChildItem $dir\modules\*.psm1 | % {
+  Import-Module $_
+}
+
 Import-Module "$dir\posh-git\posh-git"
 
-function prompt {
+function global:prompt {
   $realLASTEXITCODE = $LASTEXITCODE
 
   if(Get-IsAdmin -eq $true) {
@@ -19,17 +23,18 @@ function prompt {
   # Reset color, which can be messed up by Enable-GitColors
   $Host.UI.RawUI.ForegroundColor = $GitPromptSettings.DefaultForegroundColor
 
-  Write-Host $pwd -NoNewline
+  Write-Host($pwd.ProviderPath) -NoNewline
+
   Write-VcsStatus
 
   $global:LASTEXITCODE = $realLASTEXITCODE
-
   return "> "
 }
 
 Enable-GitColors
-#Start-SshAgent -Quiet
+
+Pop-Location
 
 Clear-Host
 
-Pop-Location
+#Start-SshAgent -Quiet
